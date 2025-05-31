@@ -13,6 +13,7 @@ Converting a string to a character array can be useful in several scenarios:
 Remember, the choice between using strings or character arrays depends on the specific requirements of your program and the operations you need to perform. It's always important to consider the trade-offs in terms of readability, performance, and code complexity.
 
 In Java, you can convert a string to an array of characters using toCharArray() method of String class
+
 ```java
 String str = "Hello World";
 char[] ch = str.toCharArray();
@@ -20,4 +21,7 @@ char[] ch = str.toCharArray();
 for (char c : ch) {
     System.out.println(c);
 }
+
+String strFromCharArray = new String(ch);
+System.out.println(strFromCharArray);
 ```

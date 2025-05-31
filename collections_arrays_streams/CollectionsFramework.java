@@ -1,4 +1,4 @@
-package collections;
+package collections_arrays_streams;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,6 +11,8 @@ public class CollectionsFramework {
         al.add(1);
         al.add(8);
         Collections.sort(al);
-        System.out.println(al);
+        System.out.println("al = " + al);
+        Collections.reverse(al);
+        System.out.println("al = " + al);
     }
 }

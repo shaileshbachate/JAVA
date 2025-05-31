@@ -1,4 +1,4 @@
-package collections;
+package collections_arrays_streams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -64,6 +64,12 @@ public class ArrayListInJava {
         List<Integer> li = arr.stream().map((x) -> x*2).collect(Collectors.toList());
         System.out.println(li);
         System.out.println(li.getClass()); // class java.util.ArrayList
+        System.out.println("------------------------------------------------------------");
 
+        // addAll method
+        List<Integer> arList = new ArrayList<>();
+        arList.addAll(Arrays.asList(new Integer[]{2, 3, 1}));
+        arList.addAll(Arrays.asList(new Integer[]{11, 12, 13}));
+        System.out.println("arList = " + arList);
     }
 }
