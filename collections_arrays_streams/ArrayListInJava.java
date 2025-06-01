@@ -24,6 +24,7 @@ public class ArrayListInJava {
         // // accessing and modifying //
         System.out.println(arr.get(2));
         System.out.println(arr.set(2, 333)); // set method returns the element previously at the specified position
+        arr.set(2, 6666666);
         System.out.println(arr.get(2));
         System.out.println("----------------------------------------------------------------------");
 

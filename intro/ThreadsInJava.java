@@ -152,6 +152,9 @@ public class ThreadsInJava {
         t6.setPriority(Thread.MIN_PRIORITY); // i.e. 1
         t7.setPriority(10); // i.e. Thread.MAX_PRIORITY
 
+        System.out.println("t6.getPriority() = " + t6.getPriority());
+        System.out.println("t7.getPriority() = " + t7.getPriority());
+
         t6.start();
         t7.start();
     }

@@ -16,5 +16,12 @@ public class while_and_doWhile_loops {
             a++;
         } while (a < 5);
         System.out.println(a);
+
+        int b = 1;
+        do {
+            System.out.println("b inside loop: " + b);
+            b++;
+        } while (b < 5);
+        System.out.println(b);
     }
 }
